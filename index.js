@@ -1,7 +1,7 @@
 function theBeatlesPlay(mus, inst){
   let array = []
   for(let i=0;i<mus.length; i++){
-    array.push(''+ mus[i] + ' plays ' + inst[i] + '.')
+    array.push(''+ mus[i] + ' plays ' + inst[i] + '')
   }
   return array
 }
